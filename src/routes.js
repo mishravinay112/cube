@@ -7,7 +7,6 @@ import Home from './pages/home';
 const Routes = () => (
   <Switch>
     <Route exact={true} path={path.root} component={Home} />
-
     <Redirect to={path.root} />;
   </Switch>
 );

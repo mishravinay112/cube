@@ -6,10 +6,12 @@ const apiCaller = (url, method = 'GET', data = {}, params = {}) => {
     method,
     data,
     params,
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+    }
   })
     .then(response => {
       // This is response from server so,
-      // it only matters for server related status chariot status is different from this.
       return response;
     })
     .catch(error => {

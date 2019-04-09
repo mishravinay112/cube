@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/mishravinay112/cube.git"
   },
   "keywords": [
     "a-cube"
@@ -26,9 +26,9 @@
   "author": "Vinay Mishra",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/mishravinay112/cube"
   },
-  "homepage": "",
+  "homepage": "https://github.com/mishravinay112/cube",
   "dependencies": {
     "moment": "^2.24.0",
     "react": "^16.4.1",

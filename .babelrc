@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "env", "react", "stage-3"
+  ],
+  "plugins": [
+    "jsx-control-statements",
+    "transform-class-properties",
+    "transform-runtime"
+  ]
+}
